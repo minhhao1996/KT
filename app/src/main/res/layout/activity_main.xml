@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:layout_margin="5dp">
+
+    <com.example.mypc.danhba.Clear_EditText
+        android:id="@+id/editTen"
+        android:textSize="15sp"
+        android:hint="Nhap Ten  "
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:minLines="8"
+        android:maxLength="11"
+        android:id="@+id/editSdt"
+        android:textSize="15sp"
+        android:inputType="number"
+        android:hint="Nhap SDT  "
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <RadioButton
+            android:checked="true"
+            android:text="Nam"
+            android:id="@+id/rdNam"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+        </RadioButton>
+
+        <RadioButton
+            android:text="Nu"
+            android:id="@+id/rdNu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+        </RadioButton>
+    </RadioGroup>
+    <LinearLayout
+        android:weightSum="3"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:drawableLeft="@drawable/ic_add_black_24dp"
+            android:layout_weight="1"
+            android:onClick="add_contact"
+            android:layout_marginTop="5dp"
+            android:textSize="25sp"
+            android:textColor="@color/colorPrimary"
+            android:background="@color/colorAccent"
+            android:id="@+id/btnAdd"
+            android:text="Thêm "
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <Button
+            android:drawableLeft="@drawable/ic_delete_sweep_black_24dp"
+            android:layout_weight="1"
+            android:layout_marginTop="5dp"
+            android:textSize="25sp"
+            android:textColor="@color/colorPrimary"
+            android:background="@color/colorAccent"
+            android:id="@+id/btnxoa"
+            android:text="XÓa"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <Button
+            android:drawableLeft="@drawable/ic_mode_edit_black_24dp"
+            android:layout_weight="1"
+            android:layout_marginTop="5dp"
+            android:textSize="25sp"
+            android:textColor="@color/colorPrimary"
+            android:background="@color/colorAccent"
+            android:id="@+id/btnsua"
+            android:text="sửa "
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/lvDanhBa"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </ListView>
+
+
+</LinearLayout>

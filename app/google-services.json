@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "321939613916",
+    "firebase_url": "https://danhba-f8167.firebaseio.com",
+    "project_id": "danhba-f8167",
+    "storage_bucket": "danhba-f8167.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:321939613916:android:e5f4ece9b9011cac",
+        "android_client_info": {
+          "package_name": "com.example.mypc.danhba"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "321939613916-j0bevrc26edisdd800kcu3uhjm8joend.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB0NWw5KcDdX3HQWBDHnyZFDL_YKakMhVo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
